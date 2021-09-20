@@ -16,7 +16,6 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .mb-40 {
@@ -32,7 +31,6 @@ body {
     content: " ";
     display: table;
     clear: both;
-
 }
 
 /* DEBUG  */
@@ -58,7 +56,6 @@ body {
     text-transform: uppercase;
     margin-right: 10px;
     font-size: 18px;
-    
 }
 
 .menu > li:last-child {
@@ -97,7 +94,6 @@ body {
 }
 
 .hero-txt{
-    
     width: 50%;
     color: white;
     position:absolute;
