@@ -1,0 +1,85 @@
+/* GENERAL RULES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* UTILITY  */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+
+}
+
+/* DEBUG  */
+
+.debug-box{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* HEADER  */
+
+header {
+    background-color: violet;
+}
+
+/* MAIN CONTENT */
+
+/* HERO */
+
+.hero {
+    background-color: darkgoldenrod;
+} 
+
+/* MAIN  */
+
+main {
+    background-color: blue;
+}
+
+.main-header {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+/* FOOTER  */
+
+footer {
+    background-color: rebeccapurple;
+    margin-top: 10px;
+}
+
+
+
+
+
