@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    color: #a0a0a0;
+}
+
 /* UTILITY  */
 
 .container {
@@ -40,8 +44,23 @@
 
 /* HEADER  */
 
-header {
-    background-color: violet;
+.brand {
+    display: block;
+}
+
+.brand img {
+    width: 165px;
+}
+
+.menu > li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.menu > li:last-child {
+    margin: 0;
 }
 
 /* MAIN CONTENT */
