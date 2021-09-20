@@ -57,10 +57,21 @@ body {
     display: inline-block;
     text-transform: uppercase;
     margin-right: 10px;
+    font-size: 18px;
+    
 }
 
 .menu > li:last-child {
     margin: 0;
+}
+
+.menu > li > a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    color: #000;
 }
 
 /* MAIN CONTENT */
@@ -168,9 +179,19 @@ body {
 
 /* FOOTER  */
 
-footer {
-    background-color: rebeccapurple;
+footer{
+    line-height: 100px;
     margin-top: 10px;
+    text-align: center;
+    vertical-align: top;
+    color: #000;
+    font-size: 18px;
+}
+
+footer::after {
+    content: "\2665";
+    color: red;
+    font-size: 30px;
 }
 
 
